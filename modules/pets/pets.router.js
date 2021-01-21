@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   let pets = Pets.get();
-  return res.json(pets).status(200);
+  return res.status(200).json(pets);
 });
 
 router.delete("/:type", json, (req, res) => {

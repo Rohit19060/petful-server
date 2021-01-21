@@ -4,7 +4,6 @@ const People = require("./people.service");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  console.log(People.get());
   return res.status(200).json(People.get());
 });
 
