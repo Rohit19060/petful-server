@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://enigmatic-tundra-24310.herokuapp.com">PetFul API</a></h1>
+<h1 align="center"><a href="https://calm-badlands-17592.herokuapp.com">PetFul API</a></h1>
 
 <h3 align="center">You can adopt pet and as a developer this is the app to showing Data Structures Concepts<h3>
 
@@ -178,4 +178,4 @@ Give a ⭐️ if you like this project!
 ## About
 
 API Endpoint for PetFul, it is hosted on Heroku
-the app is for showing queue data structure using the concept of PetFul, here queue represent the actual queue for pets adoption
+the app is for showing queue data structure using the concept of PetFul, here queue represent the actual queue for pets adoption. This endpoint is protected by Cors so if you want to use this you need to clone it and host it on heroku or any other hosting provider.
