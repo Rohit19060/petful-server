@@ -1,13 +1,22 @@
 {
   "name": "petful-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "React application API for pet adoption and demonstrating queue data structure in js.",
+  "author": {
+    "name": "Rohit Jain",
+    "email": "rohitjain19060@gmail.com",
+    "url": "https://kingtechnologies.in/"
+  },
+  "contributors": [],
   "main": "server.js",
-  "scripts": {
-    "dev": "nodemon server",
-    "start": "node server.js",
-    "predeploy": "npm audit",
-    "deploy": "git push heroku main"
+  "homepage": "https://petful-client-gold.vercel.app/",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rohit19060/petful-server"
+  },
+  "bugs": {
+    "url": "https://github.com/Rohit19060/petful-server/issues"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -15,5 +24,37 @@
     "express": "^4.17.1",
     "knex": "^0.20.10",
     "pg": "^7.18.2"
-  }
+  },
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server.js",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku main"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 7.0.0",
+    "yarn": "^1.22.0"
+  },
+  "keywords": [
+    "petful",
+    "pet-shop",
+    "pet-adoption",
+    "react",
+    "node",
+    "MERN"
+  ],
+  "license": "MIT"
 }
