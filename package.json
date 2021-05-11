@@ -1,5 +1,5 @@
 {
-  "name": "petful-server",
+  "name": "petful-api",
   "version": "1.0.0",
   "description": "React application API for pet adoption and demonstrating queue data structure in js.",
   "author": {
@@ -13,10 +13,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rohit19060/petful-server"
+    "url": "https://github.com/Rohit19060/petful-api"
   },
   "bugs": {
-    "url": "https://github.com/Rohit19060/petful-server/issues"
+    "url": "https://github.com/Rohit19060/petful-api/issues"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
